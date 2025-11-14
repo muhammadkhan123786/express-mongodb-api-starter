@@ -104,3 +104,7 @@ npm run build
 App runs at:
 👉 http://localhost:5000
 
+## Contribution Notice
+You are free to clone and modify this project for your own use.  
+However, direct pushes or commits to this repository are not allowed.  
+If you want to share improvements, please use your own fork.

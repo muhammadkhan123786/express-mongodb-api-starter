@@ -2,7 +2,7 @@ import mongoose from 'mongoose';
 import dotenv from 'dotenv';
 import app from '../app';
 dotenv.config();
-const dbURI = process.env.DB_URL || 'mongodb://localhost:27017/myapp';
+const dbURI = process.env.MONGO_URI || 'mongodb://localhost:27017/myapp';
 
 export const startApp = async () => {
   try {
